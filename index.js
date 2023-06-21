@@ -5,9 +5,11 @@ const cors = require("cors");
 const { response } = require("express");
 
 const configuration = new Configuration({
-  organization: "org-nAJZd17XLbJUcgkbyZ5HYmXx",
-  //add apiKey Here
-  apiKey: "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",
+  //   organization: "org-nAJZd17XLbJUcgkbyZ5HYmXx",
+  //   //add apiKey Here
+  //   apiKey: "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",
+  organization: "org-ghoD20CbdFe2coHdYXlVIFEQ",
+  apiKey: "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",
 });
 
 const openai = new OpenAIApi(configuration);
